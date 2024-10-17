@@ -67,7 +67,7 @@ def loop():
         if not links: continue
         asyncio.run(send_photos_to_channel(links))
         break
-    time.sleep(60*60)
+    time.sleep(60*60*4)
 
     # print(posts.get('items')[1].get('id'))
     # print(posts.get('items')[0])
